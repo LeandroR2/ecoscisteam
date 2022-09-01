@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Poppins:wght@300;400;600;700&display=swap');
 
+:root{
+  --paddin-container: 100px 0;
+  --color-title: #001A49;
+}
+
+
 body{
   font-family: 'Poppins', sans-serif;
 };
+
+.container{
+  width: 90%;
+  max-width: 12000px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #000;
+  padding: var(--paddin-container);
+}
