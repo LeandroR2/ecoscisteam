@@ -15,7 +15,7 @@ p{font-size: 1em;}
 li{font-size: 0.8em;}
 
 .color-acento{
-  color: blueviolet
+  color: rgb(247, 229, 30)
 }
 
 button{
@@ -40,19 +40,19 @@ button:hover{
 }
 
 header{
-  background-color: rgb(242, 229, 243);}
+  background-color: rgb(255, 255, 255);}
   
   header .logo{
     padding: 20px 30px 2.5px 30px;
     font-weight: bold;
-    color: crimson;
+    color: rgb(43, 20, 220);
     font-size: 1.6em;
   }  
   #agencia{
     font-size: 0.8em;
     padding: 2.5px 30px 20px 30px;
     font-weight: bold;
-    color: rgb(30, 13, 222);
+    color: rgb(253, 140, 48);
   }
   
 header .container{
@@ -93,7 +93,7 @@ header a:hover{
     rgba(0, 0, 0, 0.5)
 
   )
-  , url('/images/fondo-color-rgb.jpg');
+  , url('images/fondo-color-rgb.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -108,6 +108,23 @@ header a:hover{
 }
 
 #ecoscis-team{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.584),
+    rgba(0, 0, 0, 0.76)
+
+  )
+  , url('images/edificios-avion.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
 }
 
@@ -118,7 +135,7 @@ header a:hover{
 }
 
 #nuestros-serv{
-  background-color: rgb(30, 30, 30);
+  background-color: rgba(17, 0, 250, 0.947);
   color: white;
   text-align: center;
 }
@@ -153,7 +170,7 @@ header a:hover{
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
 )
-  , url('/images/mujer-celular-laptop.jpg');
+  , url('images/mujer-celular-laptop.jpg');
 }
 
 .carta:nth-child(2){
@@ -162,7 +179,7 @@ header a:hover{
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
 )
-  , url('/images/diseño-interiores.jpg');
+  , url('images/diseño-interiores.jpg');
 }
 
 .carta:nth-child(3){
@@ -171,7 +188,7 @@ header a:hover{
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
 )
-  , url('/images/gps.jpg');
+  , url('images/gps.jpg');
 }
 
 .carta:nth-child(4){
@@ -180,19 +197,19 @@ header a:hover{
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
 )
-  , url('/images/ciberseguridad.jpg');
+  , url('images/ciberseguridad.jpg');
 }
 
-/*.carta:last-child{
+.carta:last-child{
   background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
 )
-  , url('/images/pc-workstation.jpg');
-}*/
+  , url('images/pc-workstation.jpg');
+}
 
-#caracteristicas .comtainer{
+#caracteristicas .container{
   text-align: center;
   padding: 200px 12px
 }
@@ -208,8 +225,8 @@ header a:hover{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(30, 30 , 30);
-  color: white;
+  background-color: rgb(173, 251, 252);
+  color: rgb(192, 6, 6);
   height: 80vh;
 }
 
@@ -222,13 +239,13 @@ header a:hover{
 }
 
 footer{
-  background: rgb(192, 190, 190);
+  background: rgb(234, 231, 231);
 }
 
 footer p{
   margin: 0;
   padding: 12px;
-  color: rgb(100, 100, 100);
+  color: rgb(11, 5, 96);
 }
 
 footer .container{
